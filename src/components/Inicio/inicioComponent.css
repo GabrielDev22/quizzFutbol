@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Cookie&family=IBM+Plex+Mono:wght@500&family=Kanit&family=Noto+Sans+Mono:wght@500&family=Open+Sans&family=Poppins&family=Roboto:wght@300&family=Sevillana&family=Sigmar&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Cookie&family=IBM+Plex+Mono:wght@500&family=Kanit&family=Noto+Sans+Mono:wght@500&family=Open+Sans:wght@400;500&family=Poppins&family=Roboto:wght@300&family=Sevillana&family=Sigmar&family=Ubuntu&display=swap');
+.portadaExpress{
+    background-color: #223245;
+    height: 685px;
+    position: relative;
+}
+
+.tituloIninicio{
+    font-size: 70px;
+    color: #4cb5f5;
+    text-shadow: 2px 2px 4px rgb(38, 34, 34);
+    font-family: 'Caprasimo', cursive;
+    position: absolute;
+    margin-left: 12rem;
+    margin-top: 10rem;
+}
+
+.imagenPortadaInicio{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 685px;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.infoInicio{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    width: 60rem;
+    margin-left: 15rem;
+    margin-top: 18rem;
+    text-align: center;
+    color: white;
+    position: absolute;
+}
+
+.botonInicioDeQuizz{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: #223245;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 39.5rem;
+    margin-top: 26rem;
+    transition: all 1s;
+}
+
+.botonInicioDeQuizz:hover{
+    color: black;
+    background-color: #4cb5f5;
+}

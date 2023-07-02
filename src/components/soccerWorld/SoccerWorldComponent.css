@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Cookie&family=IBM+Plex+Mono:wght@500&family=Kanit&family=Noto+Sans+Mono:wght@500&family=Open+Sans&family=Poppins&family=Roboto:wght@300&family=Sevillana&family=Sigmar&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Cookie&family=IBM+Plex+Mono:wght@500&family=Kanit&family=Noto+Sans+Mono:wght@500&family=Open+Sans:wght@400;500&family=Poppins&family=Roboto:wght@300&family=Sevillana&family=Sigmar&family=Ubuntu&display=swap');
+
+.contenedorSoccerWorld{
+    background-color: #223245;
+    height: 50rem;
+}
+
+.imagenPortadaSoccerWorld{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.tituloSoccerWorld{
+    color: rgb(164, 23, 23);
+    font-family: 'Caprasimo', cursive;
+    font-size: 60px;
+    margin-top: 13rem;
+    margin-left: 10rem;
+    position: absolute;
+    text-shadow: 2px 2px 6px white;
+}
+
+.subtituloSoccerWorld{
+    color: rgb(164, 23, 23);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    margin-left: 25rem;
+    margin-top: 20rem;
+    position: absolute;
+    text-shadow: 1px 1px 3px white;
+}
+
+.descripcionDelWorld{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 60rem;
+    text-align: center;
+    margin-left: 15rem;
+    margin-top: 26rem;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+}
+
+/* Seccion QUIZZ */
+
+.contenedorDeQuizz{
+    background-color: #223245;
+    height: 90rem;
+}
+
+.subContenedorQuizz{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.SubtituloQuizz{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    transition: all 0.7s ease;
+}
+
+.SubtituloQuizz:hover{
+    color: #f80759;
+    border-bottom: 1px solid #f80759 ;
+}
+
+.contenidoQuizz{
+    border-radius: 20px;
+    margin-bottom: 5rem;
+}
+
+.imagenQuizz{
+    width: 300px;
+    height: 33rem;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.imagenQuizz:hover{
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+
+.nameQuizz{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 4px solid white;
+}
